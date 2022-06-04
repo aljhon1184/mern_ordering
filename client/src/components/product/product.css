@@ -1,0 +1,55 @@
+.product{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+}
+.ee{
+    width: 100%;
+    border: none;
+    height: 1px;
+    /* border: 2px solid rgb(236, 234, 234); */
+    background-color: rgb(236, 234, 234);
+}
+.fProduct{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.wrapper{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transform: translateX(0);
+    transition: all 1s ease-in;
+}
+
+.arrowIcons{
+    height: 100px;
+    width: 100px;
+    color: rgb(198, 186, 186, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 99;
+}
+.arrowIcons:hover{
+    color: rgb(99, 98, 98);
+}
+
+.arrowIcons.left{
+    top: 0;
+    left: 0;
+}
+
+.arrowIcons.right{
+    top: 0;
+    right: 0;
+}

@@ -1,0 +1,41 @@
+.menuWrapper{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(233, 231, 231);
+}
+.h1Menu{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.MenuContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 30px 0px 30px;
+}
+.selectM{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menuOp{
+    font-size: 13px;
+}
+.filter{
+    padding: 5px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.filterContainer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
